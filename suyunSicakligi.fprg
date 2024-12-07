@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
-<flowgorithm fileversion="3.0">
+<flowgorithm fileversion="4.2">
     <attributes>
-        <attribute name="name" value=""/>
-        <attribute name="authors" value="MATEBOOK 14"/>
+        <attribute name="name" value="suyunSicakligi"/>
+        <attribute name="authors" value="OMER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-12-07 12:32:49 &#214;S"/>
-        <attribute name="created" value="TUFURUJPT0sgMTQ7RVJDQU47MjAyNC0xMi0wNzsxMjoyNDoxOSDDllM7MjUwOQ=="/>
-        <attribute name="edited" value="TUFURUJPT0sgMTQ7RVJDQU47MjAyNC0xMi0wNzsxMjozMjo0OSDDllM7MjsyNjIw"/>
+        <attribute name="saved" value="2024-12-07 08:05:50 &#214;S"/>
+        <attribute name="created" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wNzswNzo1OTowNSDDllM7MjgzNQ=="/>
+        <attribute name="edited" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wNzswODowNTo1MCDDllM7MTsyOTM1"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="suSicakligi" type="Integer" array="False" size=""/>
             <assign variable="suSicakligi" expression="0"/>
-            <output expression="&quot;Suyun Ciakligini Giriniz&quot;" newline="True"/>
+            <output expression="&quot;Suyun Sicakligini Giriniz&quot;" newline="True"/>
             <input variable="suSicakligi"/>
             <if expression="suSicakligi&gt;100">
                 <then>
