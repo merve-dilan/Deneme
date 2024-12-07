@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<flowgorithm fileversion="3.0">
+<flowgorithm fileversion="4.2">
     <attributes>
-        <attribute name="name" value=""/>
-        <attribute name="authors" value="MATEBOOK 14"/>
+        <attribute name="name" value="tek&#231;ift"/>
+        <attribute name="authors" value="OMER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-12-07 01:07:53 &#214;S"/>
-        <attribute name="created" value="TUFURUJPT0sgMTQ7RVJDQU47MjAyNC0xMi0wNzsxMjo1OToyNiDDllM7MjUxNQ=="/>
-        <attribute name="edited" value="TUFURUJPT0sgMTQ7RVJDQU47MjAyNC0xMi0wNzswMTowNzo1MyDDllM7MjsyNjE1"/>
+        <attribute name="saved" value="2024-12-07 08:17:15 &#214;S"/>
+        <attribute name="created" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wNzswODowOToxOSDDllM7MjgzNg=="/>
+        <attribute name="edited" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wNzswODoxNzoxNSDDllM7MjsyOTQw"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -15,7 +15,7 @@
             <assign variable="sayi" expression="0"/>
             <output expression="&quot;bir sayi giriniz&quot;" newline="True"/>
             <input variable="sayi"/>
-            <if expression="sayi%2=0">
+            <if expression="sayi %2=0">
                 <then>
                     <output expression="&quot;Girilen &quot; &amp;sayi &amp;&quot; ciftir&quot;" newline="True"/>
                 </then>
