@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="forD&#246;ng&#252;s&#252;"/>
+        <attribute name="authors" value="OMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-08 12:54:53 &#214;S"/>
+        <attribute name="created" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODsxMjoyMzoyMSDDllM7MjgyMQ=="/>
+        <attribute name="edited" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODsxMjo1NDo1MyDDllM7MTsyOTM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="5" direction="inc" step="1">
+                <output expression="&quot;degisken degeri :&quot; &amp;i" newline="True"/>
+            </for>
+            <for variable="i" start="5" end="1" direction="dec" step="1">
+                <output expression="&quot;degisken degeri :&quot; &amp;i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
