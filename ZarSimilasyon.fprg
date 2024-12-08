@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ZarSimilasyon"/>
+        <attribute name="authors" value="OMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-08 02:28:56 &#214;S"/>
+        <attribute name="created" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODswMjowNzo1MyDDllM7MjgyNw=="/>
+        <attribute name="edited" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODswMjoyODo1NiDDllM7NDsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Gelen1, gelen2, gelen3, gelen4, gelen5, gelen6, sayac, sayi" type="Integer" array="False" size=""/>
+            <declare name="gelenler" type="Integer" array="True" size="6"/>
+            <assign variable="gelen1" expression="0"/>
+            <assign variable="gelen2" expression="0"/>
+            <assign variable="gelen3" expression="0"/>
+            <assign variable="gelen4" expression="0"/>
+            <assign variable="gelen5" expression="0"/>
+            <assign variable="gelen6" expression="0"/>
+            <for variable="sayac" start="1" end="100000" direction="inc" step="1">
+                <assign variable="sayi" expression="Random(100)"/>
+                <if expression="sayi%6=0">
+                    <then>
+                        <assign variable="gelen6" expression="gelen6+1"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="sayi%6=1">
+                    <then>
+                        <assign variable="gelen1" expression="gelen1+1"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="sayi%6=2">
+                    <then>
+                        <assign variable="gelen2" expression="gelen2+1"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="sayi%6=3">
+                    <then>
+                        <assign variable="gelen3" expression="gelen3+1"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="sayi%6=4">
+                    <then>
+                        <assign variable="gelen4" expression="gelen4+1"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="sayi%6=5">
+                    <then>
+                        <assign variable="gelen5" expression="gelen5+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;1 ler toplami&quot; &amp; gelen1" newline="True"/>
+            <output expression="&quot;2 ler toplami&quot; &amp; gelen2" newline="True"/>
+            <output expression="&quot;3 ler toplami&quot; &amp; gelen3" newline="True"/>
+            <output expression="&quot;4 ler toplami&quot; &amp; gelen4" newline="True"/>
+            <output expression="&quot;5 ler toplami&quot; &amp; gelen5" newline="True"/>
+            <output expression="&quot;6 ler toplami&quot; &amp; gelen6" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

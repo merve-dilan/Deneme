@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ZarSimilasyon"/>
+        <attribute name="authors" value="OMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-08 02:40:27 &#214;S"/>
+        <attribute name="created" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODswMjowNzo1MyDDllM7MjgyNw=="/>
+        <attribute name="edited" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODswMjo0MDoyNyDDllM7NTsyOTM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac, sayi" type="Integer" array="False" size=""/>
+            <declare name="gelenler" type="Integer" array="True" size="6"/>
+            <for variable="sayac" start="0" end="5" direction="inc" step="1">
+                <assign variable="gelenler[sayac]" expression="0"/>
+            </for>
+            <for variable="sayac" start="1" end="1000" direction="inc" step="1">
+                <assign variable="sayi" expression="Random(100)%6"/>
+                <assign variable="gelenler[sayi]" expression="gelenler[sayi]+1"/>
+            </for>
+            <for variable="sayac" start="0" end="5" direction="inc" step="1">
+                <output expression="sayac &amp;&quot;ler Toplami&quot; &amp;gelenler[sayac]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
