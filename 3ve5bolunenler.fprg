@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="3ve5bolunenler"/>
+        <attribute name="authors" value="OMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-08 01:17:06 &#214;S"/>
+        <attribute name="created" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODswMTowMzozMyDDllM7MjgyMA=="/>
+        <attribute name="edited" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODswMToxNzowNiDDllM7MTsyOTMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="baslangic, bitis, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;kactan baslayacak&quot;" newline="True"/>
+            <input variable="baslangic"/>
+            <output expression="&quot;kaca kadar d&#246;necek&quot;" newline="True"/>
+            <input variable="bitis"/>
+            <for variable="i" start="baslangic" end="bitis" direction="inc" step="1">
+                <if expression="i%3=0 &amp;&amp; i%5=0">
+                    <then>
+                        <output expression="&quot;Swgisken deger&quot; &amp;i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
