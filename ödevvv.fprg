@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#246;devvv"/>
+        <attribute name="authors" value="OMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-07 10:33:54 &#214;S"/>
+        <attribute name="created" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wNzsxMDoyMDo1NiDDllM7MjgyMw=="/>
+        <attribute name="edited" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wNzsxMDozMzo1NCDDllM7MTsyOTMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="belirliHizdakiMesafeveS&#252;re" type="Real" array="False" size=""/>
+            <declare name="hiz" type="Real" array="False" size=""/>
+            <declare name="mesafe" type="Real" array="False" size=""/>
+            <declare name="s&#252;re" type="Real" array="False" size=""/>
+            <assign variable="hiz" expression="60"/>
+            <assign variable="s&#252;re" expression="0"/>
+            <assign variable="mesafe" expression="0"/>
+            <output expression="&quot;mesafe &amp;&amp; s&#252;re&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
