@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="oeD&#246;ng&#252;s&#252;2"/>
+        <attribute name="authors" value="OMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-08 12:58:31 &#214;S"/>
+        <attribute name="created" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODsxMjo1NTo0NiDDllM7MjgzMw=="/>
+        <attribute name="edited" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODsxMjo1NjozOSDDllM7MTtPTUVSO0RFU0tUT1AtVEhTRlU2RTsyMDI0LTEyLTA4OzEyOjIzOjIxIMOWUzs1ODI0"/>
+        <attribute name="edited" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODsxMjo1ODozMSDDllM7MTsyOTM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="10" direction="inc" step="2">
+                <output expression="&quot;degisken degeri :&quot; &amp;i" newline="True"/>
+            </for>
+            <for variable="i" start="1" end="10" direction="inc" step="2">
+                <output expression="&quot;degisken degeri :&quot; &amp;i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
