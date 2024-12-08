@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="hizProblemi"/>
+        <attribute name="authors" value="OMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-08 09:22:42 &#214;&#214;"/>
+        <attribute name="created" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODswOToxMjo1NiDDlsOWOzI5NjQ="/>
+        <attribute name="edited" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODswOToyMjo0MiDDlsOWOzE7MzA2OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hiz, mesafe" type="Integer" array="False" size=""/>
+            <declare name="sure" type="Real" array="False" size=""/>
+            <assign variable="hiz" expression="60"/>
+            <output expression="&quot;Gidilecek Mesafe&quot;" newline="True"/>
+            <input variable="mesafe"/>
+            <assign variable="sure" expression="mesafe/hiz"/>
+            <output expression="&quot;Zaman &quot; &amp;(sure *60) &amp;&quot; dakikadir&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
