@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tutulanSayiesaplama"/>
+        <attribute name="authors" value="OMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-08 10:31:46 &#214;&#214;"/>
+        <attribute name="created" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODsxMDowNTowNSDDlsOWOzI5NTI="/>
+        <attribute name="edited" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0wODsxMDozMTo0NiDDlsOWOzE7MzA2NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tutulanSayi, tahmin, sayac" type="Integer" array="False" size=""/>
+            <declare name="devam" type="String" array="False" size=""/>
+            <assign variable="tutulanSayi" expression="Random(50)+1"/>
+            <output expression="&quot;tutulanSayi &quot; &amp;tutulanSayi" newline="True"/>
+            <assign variable="sayac" expression="5"/>
+            <do expression="sayac &gt;0">
+                <output expression="(6-sayac) &amp;&quot;. Tahmin Hakkini Giriniz&quot;" newline="True"/>
+                <input variable="tahmin"/>
+                <if expression="tahmin=tutulanSayi">
+                    <then>
+                        <output expression="&quot;Tebrikler &quot; &amp;(6-sayac) &amp;&quot;. denemede buldunuz&quot;" newline="True"/>
+                        <assign variable="sayac" expression="0"/>
+                    </then>
+                    <else>
+                        <if expression="tahmin&lt;tutulanSayi">
+                            <then>
+                                <output expression="&quot;daha b&#252;y&#252;k bir deger giriniz&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;daha k&#252;&#231;&#252;k bir deger giriniz&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+                <assign variable="sayac" expression="sayac -1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
