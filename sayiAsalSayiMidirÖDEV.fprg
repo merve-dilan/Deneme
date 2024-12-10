@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="sayiAsalSayiMidir"/>
+        <attribute name="authors" value="OMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-10 06:05:15 &#214;S"/>
+        <attribute name="created" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0xMDswNjowMTo1OSDDllM7MjgyNA=="/>
+        <attribute name="edited" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0xMDswNjowNToxNSDDllM7MTsyOTI4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, i, say" type="Integer" array="False" size=""/>
+            <assign variable="say" expression="0"/>
+            <output expression="&quot;bir Sayi Giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <for variable="i" start="1" end="sayi" direction="inc" step="1">
+                <if expression="sayi%i == 0">
+                    <then>
+                        <assign variable="say" expression="say + 1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <if expression="say &gt; 2">
+                <then>
+                    <output expression="sayi&amp;&quot; say&#305;s&#305; asal de&#287;ildir&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="sayi&amp;&quot;sayisi asald&#305;r&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
