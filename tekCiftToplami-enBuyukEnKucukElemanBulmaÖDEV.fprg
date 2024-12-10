@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="tekCiftToplami-enBuyukEnKucukElemanBulma"/>
+        <attribute name="authors" value="OMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-10 06:00:22 &#214;S"/>
+        <attribute name="created" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0xMDswNTozMTo1MyDDllM7MjgyMA=="/>
+        <attribute name="edited" value="T01FUjtERVNLVE9QLVRIU0ZVNkU7MjAyNC0xMi0xMDswNjowMDoyMiDDllM7MTsyOTIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, tekToplam, ciftToplam, sayac, enBuyukSayi, enKucukSayi" type="Integer" array="False" size=""/>
+            <assign variable="tekToplam" expression="0"/>
+            <assign variable="ciftToplam" expression="0"/>
+            <assign variable="enBuyukSayi" expression="0"/>
+            <assign variable="enKucukSayi" expression="0"/>
+            <output expression="&quot;a say&#305;s&#305;n&#305; girin (min)&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b sayisini girin (max)&quot;" newline="True"/>
+            <input variable="b"/>
+            <for variable="sayac" start="a" end="b" direction="inc" step="1">
+                <if expression="sayac%2==0">
+                    <then>
+                        <assign variable="ciftToplam" expression="ciftToplam+sayac"/>
+                        <assign variable="enBuyukSayi" expression="enBuyuksayi+sayac"/>
+                    </then>
+                    <else>
+                        <assign variable="tekToplam" expression="tekToplam+sayac"/>
+                        <assign variable="enKucukSayi" expression="enKucuksayi+sayac"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;cift sayi toplami&quot; &amp; ciftToplam" newline="True"/>
+            <output expression="&quot;tek sayi toplam&#305;&quot; &amp; tekToplam" newline="True"/>
+            <output expression="&quot;enBuyukSayi&quot; &amp; enBuyukSayi + sayac" newline="True"/>
+            <output expression="&quot;enKucukSayi&quot; &amp; enKucukSayi + sayac" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
